@@ -5,5 +5,7 @@ THis was originally written to solve issue with a Server 2019 HyperV bug where d
 ## Getting Started
 Download Visual Studio Community to compile the source code from 
 * [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/)
-Downlaod This project from github as zip file [Github ZIP] (https://github.com/platformcoders/vmmshutfix/archive/master.zip)
+
+Downlaod This project from github as zip file 
+* [Github ZIP] (https://github.com/platformcoders/vmmshutfix/archive/master.zip)
 
