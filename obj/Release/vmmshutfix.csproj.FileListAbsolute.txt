@@ -1,0 +1,12 @@
+C:\Temp\repos\vmmshutfix\bin\Release\vmmshutfix.exe.config
+C:\Temp\repos\vmmshutfix\bin\Release\vmmshutfix.exe
+C:\Temp\repos\vmmshutfix\bin\Release\vmmshutfix.pdb
+C:\Temp\repos\vmmshutfix\obj\Release\vmmshutfix.csproj.CoreCompileInputs.cache
+C:\Temp\repos\vmmshutfix\obj\Release\vmmshutfix.exe
+C:\Temp\repos\vmmshutfix\obj\Release\vmmshutfix.pdb
+L:\Repos\workinprogress\vmmshutfix\vmmshutfixv1.0.2.1\vmmshutfix\bin\Release\vmmshutfix.exe.config
+L:\Repos\workinprogress\vmmshutfix\vmmshutfixv1.0.2.1\vmmshutfix\bin\Release\vmmshutfix.exe
+L:\Repos\workinprogress\vmmshutfix\vmmshutfixv1.0.2.1\vmmshutfix\bin\Release\vmmshutfix.pdb
+L:\Repos\workinprogress\vmmshutfix\vmmshutfixv1.0.2.1\vmmshutfix\obj\Release\vmmshutfix.csproj.CoreCompileInputs.cache
+L:\Repos\workinprogress\vmmshutfix\vmmshutfixv1.0.2.1\vmmshutfix\obj\Release\vmmshutfix.exe
+L:\Repos\workinprogress\vmmshutfix\vmmshutfixv1.0.2.1\vmmshutfix\obj\Release\vmmshutfix.pdb
