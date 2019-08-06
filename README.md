@@ -20,8 +20,10 @@ Compiled version can be downloaded from following location
 * vmmshutfix.exe.config
 * vmmshutfix.exe.pdb
 * servicesettingsscript_V1.ps1
-Than register **vmmshutfix.exe** as service and register itself at the begingin of the **Preshutdownorder** registry key located:
+
+    Than register **vmmshutfix.exe** as service and register itself at the begingin of the **Preshutdownorder** registry key located:
 hklm:SYSTEM\CurrentControlSet\Control
+
 4. Type **start-service vmmshutfix** at PowerShell prompt, and watch for confirmation if service is started.
 5. Once service is started you can set your Virtual Machines to **Auto Save** on Host reboots. 
 
