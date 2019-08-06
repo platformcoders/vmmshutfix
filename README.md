@@ -1,6 +1,6 @@
 # Virtual Machine Preshutdown Notification Service
 This project is for Virtual Machine Preshutdown Notification Service.  Service sends Preshutdown notification message to Virtual Machines ahead of Hyper-V Managemnt Services.  
-THis was originally written to solve issue with a Server 2019 HyperV bug where during the host restart machines were being turn it off instead of shutdown. With this service and machines set to "Save" system will attempt to shutdown VM's and those that dont complete shutdown on time will be saved at the point where it no longer matter for them because they were in a process comencing shtdown anyway. This is important for domain controllers, Database servers, Exchanges servers and any machine running replication. 
+THis was originally written to get around of the issue with a Server 2019 HyperV bug where during the host restarts machines were being turn it off instead of shutdown. With this service and machines set to "Save" system will attempt to shutdown VM's and those that dont complete shutdown on time will be saved at the point where it no longer matter for them because they were in a process comencing shtdown anyway. This is important for domain controllers, Database servers, Exchanges servers and any machine running replication. 
 
 ## Getting Started
 Download Visual Studio Community to compile the source code from 
@@ -33,4 +33,8 @@ hklm:SYSTEM\CurrentControlSet\Control
 4. You should get confirmation that service is deleted 
 5. Now you can delete **vmmshutfix** directory under **C:\Program Files**
 
-
+## FAQ
+1. **Does service issues shutdown commands to machines if you stop service itself?**
+A: No, service won't stop machines so you can stop service and run sc.exe delete vmmshutfix while the HyperV host is operational.
+2. **What happens if machine is stubborn to shutdown?**
+A:When Machine is set to **Save** and **Autostart** in HyperV vmmshutfix will issue shutdown command, and if machine takes too long HyperV will Save whatever is left of shutdown process. Machine will finish shutdown process after HyperV host comes back online.  AFter machine finishes shutdown it can be started again.
